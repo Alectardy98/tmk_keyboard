@@ -65,7 +65,8 @@ OPT_DEFS += -DSUSPEND_MODE_STANDBY
 # Bootloader size can be calculated from fuse bits
 #BOOTLOADER_SIZE ?= 4096
 #OPT_DEFS += -DBOOTLOADER_SIZE=$(BOOTLOADER_SIZE)
-
+OPT_DEFS += -DBOOT_SIZE=4096
+OPT_DEFS += -DBOOTLOADER_SIZE=4096
 
 # Build Options
 #   comment out to disable the options.
